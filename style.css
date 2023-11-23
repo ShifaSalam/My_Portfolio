@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Caveat', cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+}
+.listitem{
+    display: inline;
+    margin-right: 40px;
+}
+.logo{
+    width: 200px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: font-size 1s;
+}
+.link:hover{
+    font-size: 30px;
+    color: rgb(65, 65, 199);
+}
+.title{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+.title_h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.title_h1 span{
+    color: cadetblue;
+}
+.title_p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.download{
+    background-color: #000000;
+    padding: 10px 5px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.images{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    width: 40%;
+    height: 80%;
+}
+.img{
+    width: 100%;
+    transition: 1s;
+}
+.img:hover{
+    width: 80%;
+}
+
+
+#about{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.headings{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.headings h1{
+    font-size: 50px;
+}
+.headings h3{
+    font-size: 30px;
+    color: #339933;
+}
+.abt_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.abt_img{
+    width: 100%;
+}
+.abt_intro{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#Skills{
+    margin-top: 10%;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill_section{
+    margin-left: 34%;
+}
+.skill_section h3{
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.bar{
+    width: 500px;
+    height: 3px;
+    background-color: #e6efef;
+    border-radius: 3px;
+}
+.bar div{
+    height: 3px;
+    border-radius: 3px;
+    background-color: cadetblue;
+}
+.bar span{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:rgb(86, 113, 114);
+    float: right;
+    margin-top: -4px;
+}
+.html{
+    width: 85%;
+}
+.css{
+    width: 90%;
+}
+.python{
+    width: 80%;
+}
+.c{
+    width: 75%;
+}
+
+
+#contact{
+    margin-top: 10%;
+}
+#contact h1{
+    font-size: 40px;
+    margin-left: 44%;
+}
+.contacts{
+    margin-left: 30% ;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.email{
+    margin-top: 15px;
+}
+.insta{
+    margin-top: 15px;
+}
+.email i{
+    color: rgb(76, 76, 167);
+}
+.insta i{
+    color:#E4405F;
+}
+.blank{
+    background-color: white;
+    height: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
